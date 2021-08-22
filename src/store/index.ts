@@ -1,6 +1,6 @@
 import { createStore } from 'vuex'
-import LoadFile from '../common/load-file'
-const lf = new LoadFile()
+import C from '../common/index'
+const lf = new C.LoadFile()
 const modules = lf.loadFiles()
 
 export default createStore({

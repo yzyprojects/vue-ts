@@ -2,7 +2,7 @@
   <div class="item-root-ele">
     {{data.name}}
   </div>
-   <div>{{Store.state.msIndex.number}}</div>
+   <div>{{Store.state.MsIndex.number}}</div>
 </template>
 <script lang="ts">
 import { defineComponent, reactive } from 'vue'

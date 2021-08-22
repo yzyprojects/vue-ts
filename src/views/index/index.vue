@@ -7,7 +7,7 @@
     <div>==============vuex==========</div>
     <button @click="add">加</button>
      <button @click="minus">减</button>
-     <div>{{Store.state.msIndex.number}}</div>
+     <div>{{Store.state.MsIndex.number}}</div>
   </div>
 </template>
 <script lang="ts">
