@@ -1,10 +1,6 @@
 export default class FirstLetterUppercase {
-    constructor() {
-
-    }
-
     // 英文字母第一个字母转大写
-    ucfirst(str: string) {
+    ucfirst(str:string) {
         if (str) {
             var str = str.toLowerCase();
             str = str.replace(/\b\w+\b/g, function(word:string){

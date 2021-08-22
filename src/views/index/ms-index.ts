@@ -1,4 +1,3 @@
-import { createStore, Store } from 'vuex'
 import Calculator from './index'
 const calculator:Calculator = new Calculator();
 
